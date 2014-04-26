@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="192dp"
+    android:layout_height="80dp"
+    android:orientation="vertical" 
+    android:background = "@drawable/selectjumptimenormal">
+	<LinearLayout android:orientation="horizontal"
+        android:layout_width="192dp"
+    	android:layout_height="40dp"
+        android:paddingTop="10dp"
+    >
+    	<ImageView
+			android:layout_width = "90dp"
+			android:layout_height = "139dp"
+		/>
+    	<EditText 
+		 	android:layout_width = "95dp"
+			android:layout_height = "30dp"
+			android:textSize="8dp"
+		 	android:id ="@+id/jumptime"
+		 	android:maxLines="1"
+		/>
+	    
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="192dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="7dp"
+    >	
+    	<Button
+    	    android:layout_width="70dp"
+	        android:layout_height="30dp"
+	        android:text="Ok"
+	        android:textSize="10dp"
+	        android:id="@+id/okbutton" 
+	        android:layout_marginLeft="20dp"
+	    />
+    	<Button
+    	    android:layout_width="70dp"
+	        android:layout_height="30dp"
+	        android:text="Cancel"
+	        android:textSize="10dp"
+	        android:id="@+id/cancelbutton" 
+	        android:layout_marginLeft="20dp"
+	    />
+	</LinearLayout>
+</LinearLayout>
